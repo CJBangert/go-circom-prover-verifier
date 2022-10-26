@@ -15,7 +15,7 @@ import (
 	"strings"
 
 	bn256 "github.com/ethereum/go-ethereum/crypto/bn256/cloudflare"
-	"github.com/iden3/go-circom-prover-verifier/types"
+	" github.com/cjbangert/go-circom-prover-verifier/types"
 )
 
 // PkString is the equivalent to the Pk struct in string representation, containing the ProvingKey

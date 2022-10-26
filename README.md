@@ -1,4 +1,4 @@
-# go-circom-prover-verifier [![GoDoc](https://godoc.org/github.com/iden3/go-circom-prover-verifier?status.svg)](https://godoc.org/github.com/iden3/go-circom-prover-verifier) [![Go Report Card](https://goreportcard.com/badge/github.com/iden3/go-circom-prover-verifier)](https://goreportcard.com/report/github.com/iden3/go-circom-prover-verifier) [![Test](https://github.com/iden3/go-circom-prover-verifier/workflows/Test/badge.svg)](https://github.com/iden3/go-circom-prover-verifier/actions?query=workflow%3ATest)
+# go-circom-prover-verifier [![GoDoc](https://godoc.org/ github.com/cjbangert/go-circom-prover-verifier?status.svg)](https://godoc.org/ github.com/cjbangert/go-circom-prover-verifier) [![Go Report Card](https://goreportcard.com/badge/ github.com/cjbangert/go-circom-prover-verifier)](https://goreportcard.com/report/ github.com/cjbangert/go-circom-prover-verifier) [![Test](https:// github.com/cjbangert/go-circom-prover-verifier/workflows/Test/badge.svg)](https:// github.com/cjbangert/go-circom-prover-verifier/actions?query=workflow%3ATest)
 
 Go implementation of the [Groth16 protocol](https://eprint.iacr.org/2016/260.pdf) zkSNARK prover & verifier compatible with [circom](https://github.com/iden3/circom).
 
@@ -10,9 +10,9 @@ Using [bn256](https://github.com/ethereum/go-ethereum/tree/master/crypto/bn256/c
 - Generate Proof
 ```go
 import (
-  "github.com/iden3/go-circom-prover-verifier/parsers"
-  "github.com/iden3/go-circom-prover-verifier/prover"
-  "github.com/iden3/go-circom-prover-verifier/verifier"
+  " github.com/cjbangert/go-circom-prover-verifier/parsers"
+  " github.com/cjbangert/go-circom-prover-verifier/prover"
+  " github.com/cjbangert/go-circom-prover-verifier/verifier"
 )
 
 [...]

@@ -8,9 +8,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/iden3/go-circom-prover-verifier/parsers"
-	"github.com/iden3/go-circom-prover-verifier/prover"
-	"github.com/iden3/go-circom-prover-verifier/verifier"
+	" github.com/cjbangert/go-circom-prover-verifier/parsers"
+	" github.com/cjbangert/go-circom-prover-verifier/prover"
+	" github.com/cjbangert/go-circom-prover-verifier/verifier"
 )
 
 const version = "v0.0.1"
