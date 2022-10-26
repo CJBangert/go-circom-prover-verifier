@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"math/big"
 
+	"github.com/cjbangert/go-circom-prover-verifier/types"
 	bn256 "github.com/ethereum/go-ethereum/crypto/bn256/cloudflare"
-	" github.com/cjbangert/go-circom-prover-verifier/types"
 	"github.com/iden3/go-iden3-crypto/ff"
 )
 

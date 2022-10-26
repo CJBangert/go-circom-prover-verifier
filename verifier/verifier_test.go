@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	" github.com/cjbangert/go-circom-prover-verifier/parsers"
+	"github.com/cjbangert/go-circom-prover-verifier/parsers"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
