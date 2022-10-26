@@ -181,7 +181,7 @@ func ParseProof(pj []byte) (*types.Proof, error) {
 	if err != nil {
 		return nil, err
 	}
-	p, err := proofStringToProof(pr)
+	p, err := ProofStringToProof(pr)
 	return p, err
 }
 
