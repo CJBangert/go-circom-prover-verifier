@@ -153,7 +153,7 @@ func pkStringToPk(ps PkString) (*types.Pk, error) {
 	return &p, nil
 }
 
-func proofStringToProof(pr ProofString) (*types.Proof, error) {
+func ProofStringToProof(pr ProofString) (*types.Proof, error) {
 	var p types.Proof
 	var err error
 	p.A, err = stringToG1(pr.A)
@@ -210,11 +210,11 @@ func ParseVk(vj []byte) (*types.Vk, error) {
 	if err != nil {
 		return nil, err
 	}
-	v, err := vkStringToVk(vr)
+	v, err := VkStringToVk(vr)
 	return v, err
 }
 
-func vkStringToVk(vr VkString) (*types.Vk, error) {
+func VkStringToVk(vr VkString) (*types.Vk, error) {
 	var v types.Vk
 	var err error
 	v.Alpha, err = stringToG1(vr.Alpha)
