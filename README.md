@@ -87,3 +87,4 @@ Usage of /tmp/go-build620318239/b001/exe/cli:
 ```
 > go run cli.go -verify -vk=../testdata/circuit5k/verification_key.json
 ```
+
